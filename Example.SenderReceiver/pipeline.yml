@@ -1,0 +1,15 @@
+﻿- Name: TestSenderReceiver
+  Handlers:
+  - Name: TestMessageSenderHandler
+    Props:
+    - Key: StringMessage
+      Value: Hello From the otherside
+  - Name: ConsoleLogReceiverHandler
+
+- Name: SecondTestSenderReceiver
+  Handlers:
+  - Name: TestMessageSenderHandler
+    Props:
+    - Key: StringMessage
+      Value: Otherside from the hello
+  - Name: ConsoleLogReceiverHandler

@@ -1,0 +1,19 @@
+﻿[
+  {
+    "Name": "TestSenderReceiver",
+    "Handlers": [
+      {
+        "Name": "TestMessageSenderHandler",
+        "Props": [
+          {
+            "Key": "StringMessage",
+            "Value":  "Hello From the otherside"
+          }
+        ]
+      },
+      {
+        "Name":  "ConsoleLogReceiverHandler"
+      }
+    ]
+  }
+]
