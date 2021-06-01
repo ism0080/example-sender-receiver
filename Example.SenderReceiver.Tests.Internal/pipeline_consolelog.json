@@ -1,0 +1,14 @@
+﻿{
+  "pipelines": [
+    {
+      "Name": "ValidConsoleLogReceiverHandlerPipeline",
+      "Handlers": [
+        {
+          "Name": "ConsoleLogReceiverHandler",
+          "Props": [
+          ]
+        }
+      ]
+    }
+  ]
+}

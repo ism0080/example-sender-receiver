@@ -1,0 +1,19 @@
+﻿{
+  "pipelines": [
+    {
+      "Name": " ",
+      "Handlers": [
+        {
+          "Name": "MessageGeneratorHandler",
+          "Props": [
+          ]
+        },
+        {
+          "Name": "MessageReceiveHandler",
+          "Props": [
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -3,17 +3,19 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 16
 VisualStudioVersion = 16.0.30611.23
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Example.SenderReceiver", "Example.SenderReceiver\Example.SenderReceiver.csproj", "{E4616049-0751-41C3-B9C0-FB5748A65B60}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Example.SenderReceiver", "Example.SenderReceiver\Example.SenderReceiver.csproj", "{E4616049-0751-41C3-B9C0-FB5748A65B60}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Example.SenderReceiver.PipelineBuilder", "Example.SenderReceiver.PipelineBuilder\Example.SenderReceiver.PipelineBuilder.csproj", "{228722B0-58D4-472C-B4B7-ABE16DCE846E}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Example.SenderReceiver.PipelineBuilder", "Example.SenderReceiver.PipelineBuilder\Example.SenderReceiver.PipelineBuilder.csproj", "{228722B0-58D4-472C-B4B7-ABE16DCE846E}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Example.SenderReceiver.TaskHandlers.Common", "Example.SenderReceiver.TaskHandlers.Common\Example.SenderReceiver.TaskHandlers.Common.csproj", "{4CC93B6D-F1D4-48CE-92DE-CD33AFF532A3}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Example.SenderReceiver.TaskHandlers.Common", "Example.SenderReceiver.TaskHandlers.Common\Example.SenderReceiver.TaskHandlers.Common.csproj", "{4CC93B6D-F1D4-48CE-92DE-CD33AFF532A3}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Example.SenderReceiver.TaskHandlers.ModuleLoader", "Example.SenderReceiver.TaskHandlers.ModuleLoader\Example.SenderReceiver.TaskHandlers.ModuleLoader.csproj", "{3214F7ED-EE98-418F-ACBC-FB4C46493F6F}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Example.SenderReceiver.TaskHandlers.ModuleLoader", "Example.SenderReceiver.TaskHandlers.ModuleLoader\Example.SenderReceiver.TaskHandlers.ModuleLoader.csproj", "{3214F7ED-EE98-418F-ACBC-FB4C46493F6F}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Example.SenderReceiver.TaskHandlers.Standard", "Example.SenderReceiver.TaskHandlers.Standard\Example.SenderReceiver.TaskHandlers.Standard.csproj", "{8AB2B500-8377-4DE0-A36D-CFBA746636DD}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Example.SenderReceiver.TaskHandlers.Standard", "Example.SenderReceiver.TaskHandlers.Standard\Example.SenderReceiver.TaskHandlers.Standard.csproj", "{8AB2B500-8377-4DE0-A36D-CFBA746636DD}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Example.SenderReceiver.App", "Example.SenderReceiver.App\Example.SenderReceiver.App.csproj", "{7962DB85-CCD4-4040-9BEA-D1BA18DBD12E}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Example.SenderReceiver.App", "Example.SenderReceiver.App\Example.SenderReceiver.App.csproj", "{7962DB85-CCD4-4040-9BEA-D1BA18DBD12E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Example.SenderReceiver.Tests.Internal", "Example.SenderReceiver.Tests.Internal\Example.SenderReceiver.Tests.Internal.csproj", "{A121B76B-F941-4A37-919E-A827A2D8D599}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -45,6 +47,10 @@ Global
 		{7962DB85-CCD4-4040-9BEA-D1BA18DBD12E}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{7962DB85-CCD4-4040-9BEA-D1BA18DBD12E}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{7962DB85-CCD4-4040-9BEA-D1BA18DBD12E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A121B76B-F941-4A37-919E-A827A2D8D599}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A121B76B-F941-4A37-919E-A827A2D8D599}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A121B76B-F941-4A37-919E-A827A2D8D599}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A121B76B-F941-4A37-919E-A827A2D8D599}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

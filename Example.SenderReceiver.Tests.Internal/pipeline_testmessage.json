@@ -1,0 +1,28 @@
+﻿{
+  "pipelines": [
+    {
+      "Name": "ValidTestMessageSenderHandlerPipeline",
+      "Handlers": [
+        {
+          "Name": "TestMessageSenderHandler",
+          "Props": [
+            {
+              "Key": "StringMessage",
+              "Value": "Hello World"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "Name": "InvalidTestMessageSenderHandlerPipeline",
+      "Handlers": [
+        {
+          "Name": "TestMessageSenderHandler",
+          "Props": [
+          ]
+        }
+      ]
+    }
+  ]
+}
